@@ -1,0 +1,83 @@
+.SearchElemeContainer{
+    max-width: 1344px;
+    width: 100%;
+    height: 160px;
+    border: 1px solid #52325A;
+    box-sizing: border-box;
+    border-radius: 20px;
+    .container{
+        padding-top: 30px;
+        padding-left: 31px;
+        .input_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            .input{
+                max-width: 477px;
+                width: 100%;
+                margin-right: 20px;
+            }
+            .select_item{
+                max-width: 319px;
+                width: 100%;
+                margin-right: 23px;
+            }
+            .icons_cont{     
+                max-width: 100px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 31px;
+            }
+        }
+        .sort_items_cont{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 33px;
+            padding-right: 31px;
+            .search_items{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                max-width: 1214px;
+                width: 100%;
+                border-bottom: 1px solid #4D2D55;
+                margin-right: 31px;
+                .search_item{
+                    label {
+                        padding-bottom: 12px;
+                    }
+                    label p {
+                        font-family: GothamProMedium;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 15px;
+                        color: #FFFFFF;
+                        padding-bottom: 9px;
+                        border-bottom: 3px solid transparent;
+                        transition: all ease-in .2s;
+                        cursor: pointer;
+                        span{
+                            color: #9F9F9F;
+                            font-family: GothamProLight;
+                        }
+                    }
+                    label input[type=radio] {
+                        position: absolute;
+                        z-index: -1;
+                        opacity: 0;
+                        display: block;
+                        width: 0;
+                        height: 0;
+                    }
+                    label input[type=radio]:checked + p {
+                        border-bottom: 3px solid #FF465B;
+                    }
+                }
+            }
+        }
+    }
+}

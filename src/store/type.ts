@@ -1,0 +1,1 @@
+export const SELECT_ITEM = 'AUTH/SELECT_ITEM';
