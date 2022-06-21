@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AKatsalap/static/css/main.80118c2e.css",
-    "main.js": "/AKatsalap/static/js/main.cc0d5e36.js",
+    "main.js": "/AKatsalap/static/js/main.d6006b95.js",
     "static/js/787.28cb0dcd.chunk.js": "/AKatsalap/static/js/787.28cb0dcd.chunk.js",
     "static/media/nft_item_19.png": "/AKatsalap/static/media/nft_item_19.81aaa7a13a30b4bf0e20.png",
     "static/media/nft_item_13.png": "/AKatsalap/static/media/nft_item_13.7b8dfe14e84acc8521a0.png",
@@ -27,11 +27,11 @@
     "static/media/auction_bg.png": "/AKatsalap/static/media/auction_bg.f6aff1bb2f6d6ca4651e.png",
     "index.html": "/AKatsalap/index.html",
     "main.80118c2e.css.map": "/AKatsalap/static/css/main.80118c2e.css.map",
-    "main.cc0d5e36.js.map": "/AKatsalap/static/js/main.cc0d5e36.js.map",
+    "main.d6006b95.js.map": "/AKatsalap/static/js/main.d6006b95.js.map",
     "787.28cb0dcd.chunk.js.map": "/AKatsalap/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80118c2e.css",
-    "static/js/main.cc0d5e36.js"
+    "static/js/main.d6006b95.js"
   ]
 }
